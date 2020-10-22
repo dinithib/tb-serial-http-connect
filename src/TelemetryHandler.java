@@ -69,7 +69,7 @@ public class TelemetryHandler {
 	
 public void sendTelemetry(String data){
 	
-	String uri = "http://136.186.108.47:9090/api/plugins/telemetry/DEVICE/%s/timeseries/shared";
+	String uri = "http://136.xxx.xxx.xx:9090/api/plugins/telemetry/DEVICE/%s/timeseries/shared";
 	String deviceUri =  String.format(uri, tbDeviceId);
 	try {
 
