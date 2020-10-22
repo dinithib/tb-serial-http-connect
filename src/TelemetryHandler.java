@@ -28,11 +28,11 @@ public class TelemetryHandler {
 	
 	public void initialize(){
 		
-		String deviceUri = "http://136.186.108.47:9090/api/auth/login";
+		String deviceUri = "http://136.xxx.xxx.xx:9090/api/auth/login";
 		
 		JSONObject data =  new JSONObject();
 		data.accumulate("username", "tenant@thingsboard.org");
-		data.accumulate("password","iotlabtenant!234" );
+		data.accumulate("password","iot234" );
 		
 		try {
 
